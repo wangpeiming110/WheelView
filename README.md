@@ -28,6 +28,22 @@ a great functional custom WheelView with demo in dialog and bottomDialog
         />
 ```
 
+# Attributes
+
+There are several attributes you can set:
+
+| attr 属性          | description 描述 |
+|:---				 |:---|
+| lineColor  	     | divider line color 分割线颜色 |
+| itemNumber	 	 | wheelview show item count 此wheelView显示item的个数 |
+| textColorOuter 	 | unSelected Text color 未选中文本颜色 |
+| textSizeOuter 	 | unSelected Text size 未选中文本字体大小 |
+| textColorCenter    | selected Text color 选中文本颜色 |
+| textSizeCenter 	 | selected Text size 选中文本字体大小 |
+| isLoop        	 | isLoop or no 滚轮是否首尾相连 |
+| lineSpaceingDimens | item unit margin height 每个item单元格中文字距离上下的高度 |
+| wheelGravity       | align direction:left;center;right 对齐方向：靠左对齐 居中 靠右对齐|
+
 #### Activity: 
 
 ```java    
