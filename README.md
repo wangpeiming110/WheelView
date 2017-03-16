@@ -45,7 +45,7 @@ There are several attributes you can set:
 | wheelGravity       | align direction:left;center;right 对齐方向：靠左对齐 居中 靠右对齐|
 
 #Method
-###1. setItems(List<String> items, int initPosition) {
+###1. setItems(List<String> items, int initPosition)
 set WheelView items and init selected position</br> 
 设置WheelView的数据和初始位置
 
