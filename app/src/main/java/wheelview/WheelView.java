@@ -131,7 +131,7 @@ public class WheelView extends View {
     private void initWheelView(Context context, AttributeSet attributeset) {
         TypedArray attribute = context.obtainStyledAttributes(attributeset, R.styleable.WheelView);
         lineColor = attribute.getColor(R.styleable.WheelView_lineColor, lineColor);
-        itemsVisible = attribute.getInt(R.styleable.WheelView_itemNumber, itemsVisible);
+        itemsVisible = getFixedItemsVisible(attribute.getInt(R.styleable.WheelView_itemVisibleNum, itemsVisible));
         isLoop = attribute.getBoolean(R.styleable.WheelView_isLoop, isLoop);
         textColorCenter = attribute.getColor(R.styleable.WheelView_textColorCenter, textColorCenter);
         textColorOuter = attribute.getColor(R.styleable.WheelView_textColorOuter, textColorOuter);
@@ -143,6 +143,16 @@ public class WheelView extends View {
         attribute.recycle();
 
         initWheelView(context);
+    }
+
+    private int getFixedItemsVisible(int originalNum) {
+        if (originalNum < 3) {
+            return  3;
+        } else if (originalNum % 2 == 0) {
+            return originalNum + 1;
+        } else {
+            return originalNum;
+        }
     }
 
     private void initWheelView(Context context) {

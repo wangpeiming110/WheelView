@@ -20,7 +20,7 @@
         android:layout_marginRight="50dp"
         app:textColorCenter="@android:color/holo_blue_dark"
         app:lineSpaceingDimens="15dp"
-        app:itemNumber="3"
+        app:itemVisibleNum="3"
         app:lineColor="@android:color/holo_blue_dark"
         app:textSizeCenter="20dp"
         app:textSizeOuter="16dp"

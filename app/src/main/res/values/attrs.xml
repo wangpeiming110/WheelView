@@ -2,7 +2,7 @@
 <resources>
 
     <declare-styleable name="WheelView">
-        <attr name="itemNumber" format="integer"/>
+        <attr name="itemVisibleNum" format="integer"/>
 
         <attr name="textColorOuter" format="color" />
         <attr name="textSizeOuter" format="dimension" />

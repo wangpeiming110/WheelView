@@ -19,7 +19,7 @@ a great functional custom WheelView with demo in dialog and bottomDialog
         android:layout_marginRight="50dp"
         app:textColorCenter="@android:color/holo_blue_dark"
         app:lineSpaceingDimens="15dp"
-        app:itemNumber="3"
+        app:itemVisibleNum="3"
         app:lineColor="@android:color/holo_blue_dark"
         app:textSizeCenter="20dp"
         app:textSizeOuter="16dp"
@@ -35,7 +35,7 @@ There are several attributes you can set:
 | attr 属性          | description 描述 |
 |:---				 |:---|
 | lineColor  	     | divider line color 分割线颜色 |
-| itemNumber	 	 | wheelview show item count 此wheelView显示item的个数 |
+| itemVisibleNum	 	 | wheelview show item count 此wheelView显示item的个数 |
 | textColorOuter 	 | unSelected Text color 未选中文本颜色 |
 | textSizeOuter 	 | unSelected Text size 未选中文本字体大小 |
 | textColorCenter    | selected Text color 选中文本颜色 |
