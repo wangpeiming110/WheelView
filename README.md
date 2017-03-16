@@ -44,12 +44,15 @@ There are several attributes you can set:
 | lineSpaceingDimens | item unit margin height 每个item单元格中文字距离上下的高度 |
 | wheelGravity       | align direction:left;center;right 对齐方向：靠左对齐 居中 靠右对齐|
 
-#Method
-###1. setItems(List<String> items, int initPosition)
+# Method
+
+### 1. setItems(List<String> items, int initPosition)
+
 set WheelView items and init selected position</br> 
 设置WheelView的数据和初始位置
 
-###2. setOnItemSelectedListener(OnItemSelectedListener OnItemSelectedListener)
+### 2. setOnItemSelectedListener(OnItemSelectedListener OnItemSelectedListener)
+
 set listener on WheelView that can get info when WheelView changed selected item.</br>
 对WheelView设置监听器，当WheelView 选中项改变时返回选中项的索引和值。
 
