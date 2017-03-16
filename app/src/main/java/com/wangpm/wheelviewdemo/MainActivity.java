@@ -31,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         WheelView wva = (WheelView) findViewById(R.id.wheel_view);
 
-        wva.setItems(Arrays.asList(PLANETS),1);
+        wva.setItems(Arrays.asList(PLANETS),1);//init selected position is 1 初始选中位置为1
         wva.setOnItemSelectedListener(new WheelView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(int selectedIndex, String item) {
@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.main_show_dialog_btn:
                 View outerView = LayoutInflater.from(this).inflate(R.layout.dialog_content_view, null);
                 final WheelView wv = (WheelView) outerView.findViewById(R.id.wheel_view_wv);
-                wv.setItems(getNumbers(),0);
+                wv.setItems(getNumbers(),0);//init selected position is 0 初始选中位置为0
                 wv.setOnItemSelectedListener(new WheelView.OnItemSelectedListener() {
                     @Override
                     public void onItemSelected(int selectedIndex, String item) {
