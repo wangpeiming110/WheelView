@@ -1,5 +1,5 @@
 # WheelView
-a great functional custom WheelView with demo in dialog and bottomDialog
+a great functional custom WheelView with demo in dialog and bottomDialog,android 滚动选择控件,滚动选择器
 
 =========
 
