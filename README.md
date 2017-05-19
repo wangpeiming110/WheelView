@@ -7,26 +7,6 @@ a great functional custom WheelView with demo in dialog and bottomDialog,android
 <img src='image/20170316150643.png' height='500px'/>
 <img src='image/20170316150533.png' height='500px'/>
 
-### How to use
-
-#### layout: 
-```xml
-    <wheelview.WheelView
-        android:id="@+id/wheel_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        app:textColorCenter="@android:color/holo_blue_dark"
-        app:lineSpaceingDimens="15dp"
-        app:itemVisibleNum="3"
-        app:lineColor="@android:color/holo_blue_dark"
-        app:textSizeCenter="20dp"
-        app:textSizeOuter="16dp"
-        app:isLoop="false"
-        app:textColorOuter="@android:color/darker_gray"
-        />
-```
 
 # Attributes
 
@@ -55,6 +35,27 @@ set WheelView items and init selected position</br>
 
 set listener on WheelView that can get info when WheelView changed selected item.</br>
 对WheelView设置监听器，当WheelView 选中项改变时返回选中项的索引和值。
+
+### How to use
+
+#### layout: 
+```xml
+    <wheelview.WheelView
+        android:id="@+id/wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:textColorCenter="@android:color/holo_blue_dark"
+        app:lineSpaceingDimens="15dp"
+        app:itemVisibleNum="3"
+        app:lineColor="@android:color/holo_blue_dark"
+        app:textSizeCenter="20dp"
+        app:textSizeOuter="16dp"
+        app:isLoop="false"
+        app:textColorOuter="@android:color/darker_gray"
+        />
+```
 
 #### Activity: 
 
